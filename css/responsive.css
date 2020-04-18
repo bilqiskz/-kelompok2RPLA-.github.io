@@ -52,9 +52,10 @@
 		top: -10px;
 		transform: rotate(-45deg);
 		-webkit-transform: rotate(-45deg);
-		-moz-transform: rotate(-45deg);
+		-moz-transform: rotate(-45deg); 
 		-ms-transform: rotate(-45deg);
 	}
+	
 	
 }
 @media (max-width: 1240px) {
@@ -88,13 +89,13 @@
 }
 @media (max-width: 992px) {
 	.banner-text h1{
-		font-size: 50px;
+		font-size: 45px;
 	}
 	.banner-cell .mouse{
 		display:none;
 	}
 	.footer-box-a, .footer-box-b, .footer-box-c, .footer-box-d{
-		margin-bottom:20px;
+		margin-bottom:15px;
 	}
 	.main-menu .navbar-header {
 		float: right;
@@ -166,7 +167,6 @@
     width: calc(16px * 4);
     height: calc(31px * 4);
     margin: 70px auto 0px;
-    background: none;
     border: 2px solid white;
     border-radius: calc(16px * 4);
   }
@@ -201,7 +201,7 @@
 		background-size: inherit;
 	}
 	.banner-text h1 {
-		font-size: 50px;
+		font-size: 45px;
 		line-height: 62px;
 	}
 	.banner-text h2{
@@ -329,5 +329,83 @@
 	}
 	.offer-item div h3{
 		font-size: 16px;
+	}
+
+	
+}
+
+
+@media(max-width:360px){
+	.banner{
+		background:url(../images/jumbotron.png) no-repeat center top;
+		background-size:cover;
+		height:100%;
+		width: 100%;		
+	}
+	.carousel-caption p{
+		margin-top: -10px;
+		font-size: 11px;
+		margin-bottom: -20px;
+	}
+
+	.testimonial-style .testimonial-authors {
+		font-family: "poppins";
+		font-size: 12px;
+		font-weight: 600;
+		color: #fff;
+		line-height: 30px;
+		margin-top: 20px;
+	}
+
+	.blok{
+		font-family: 'poppinslight';
+		font-weight: 50; 
+		margin: 30px 0 0 30px; 
+		width: 400px;
+	}
+	
+
+
+	.foto1{
+		display: none;
+	}
+	
+	.foto2{
+		display: none;
+	}
+
+	.garis h2{
+		padding: 10px 0 10px 0;
+	}
+	
+	.special-menu .garis{
+		margin: 10px -13px 30px 20px;
+	}
+
+	.gal-item{
+		width: 50%;
+		height: 150px;
+		float: left;
+		
+	}
+
+	.banner-cell h1{
+		font-size: 30px;
+	}
+
+	.banner-cell p{
+		font-size: 14px;
+	}
+
+	.banner{
+		margin-top: -30%;
+	}
+
+	.list-group h1{
+		font-size: 13px;
+	}
+
+	.list-group{
+		font-size: 9px;
 	}
 }
